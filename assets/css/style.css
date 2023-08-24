@@ -1,0 +1,119 @@
+/* Reset default padding and margin for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f3f4;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    overflow: hidden;
+}
+
+h1 {
+    color: #fff;
+}
+
+.container-fluid {
+   
+    background-color: #fff;
+    padding: 20px;
+    margin: 0; /* Remove margin to span the whole page */
+    height: 100vh;
+    background-image: url("/assets/photos/kristaps-ungurs-F81LTvewGoU-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.language-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.language-buttons button {
+    margin: 5px;
+    font-size: 24px; /* Larger font size for buttons */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+#dialectSelect,
+#textInput {
+    width: 100%;
+    padding: 15px; /* Increase padding for input fields */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 24px; /* Larger font size for input fields */
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    color: #fff; /* White text */
+}
+
+.d-flex {
+    display: flex;
+}
+
+.input-box,
+.output-box {
+    flex: 1;
+    padding: 30px; /* Increase padding for boxes */
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 5px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white background */
+    backdrop-filter: blur(0px); /* Apply blur effect to the background */
+    color: #fff; /* White text */
+}
+
+.input-box {
+    opacity: 90%;
+}
+
+.output-box {
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white background */
+    backdrop-filter: blur(0px); /* Apply blur effect to the background */
+}
+
+.output-heading {
+    margin-bottom: 20px; /* Increase margin for heading */
+    font-size: 30px; /* Larger font size for the heading */
+    font-weight: bold;
+}
+
+.output-text {
+    font-size: 26px; /* Larger font size for the output text */
+    text-align: left;
+    color: #fff; /* White text */
+}
+
+.form-group {
+    position: relative;
+}
+
+.textarea-wrapper {
+    position: relative;
+}
+
+.btn-clear {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.btn-clear:hover {
+    background-color: rgba(255, 255, 255, 1); /* Fully opaque white background on hover */
+}

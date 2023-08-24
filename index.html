@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Dialect Translator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Make sure to adjust the CSS file path if needed -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+        /* Your custom styles here */
+    </style>
+</head>
+<body class="d-flex justify-content-center align-items-center min-vh-100">
+    <div class="container-fluid p-4">
+        <div class="row">
+            <div class="col-md-12 text-center mt-5">
+                <h1 class="mb-4">English & Spanish <br> Translator</h1>
+                <div class="language-buttons mb-4">
+                    <button class="btn btn-primary" id="englishButton">English</button>
+                    <button class="btn btn-primary" id="spanishButton">Spanish</button>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="input-box mr-3">
+                        <div class="form-group position-relative">
+                            <label for="textInput"></label>
+                            <div class="textarea-wrapper">
+                                <textarea class="form-control" id="textInput" rows="4"></textarea>
+                                <button class="btn btn-clear" id="clearButton">
+                                    <i class="fas fa-times fa-lg"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="output-box">
+                        <h4 class="output-heading mb-4"></h4>
+                        <div id="translationOutput" class="output-text" placeholder="Translation"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
