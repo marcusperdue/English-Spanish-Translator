@@ -24,8 +24,8 @@ The Language Dialect Translator has been deployed to GitHub Pages and is accessi
 
 ## Visuals
 
-![Example Image](/assets/photos/eng.png)
-![Example Image](/assets/photos/span.png)
+![Example Image](/assets/images/eng.png)
+![Example Image](/assets/images/span.png)
 
 
 ## Credits
