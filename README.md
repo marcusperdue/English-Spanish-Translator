@@ -1,12 +1,12 @@
-# Language Dialect Translator
+# English & Spanish Translator
 
 ## Description
-The Language Dialect Translator is a user-friendly web application that allows users to easily translate text between different languages and dialects. This intuitive tool empowers users to input text, select a target language, and receive an instant translation. Whether you're a language enthusiast, traveler, or someone who needs to communicate across language barriers, the Language Dialect Translator is your go-to solution.
+The English & Spanish Translator is a user-friendly web application that allows users to easily translate text between different languages. This intuitive tool empowers users to input text, select a target language, and receive an instant translation. Whether you're a language enthusiast, traveler, or someone who needs to communicate across language barriers, the English & Spanish Translator is your go-to solution.
 
 
 ## How to View the Code
 
-1. Clone the Repository:  `git@github.com:marcusperdue/Language-Dialect-Translator.git`
+1. Clone the Repository:  `git@github.com:marcusperdue/English-Spanish-Translator.git`
 2. Open the Files.
 3. Explore the Code.
 
@@ -20,7 +20,7 @@ The Language Dialect Translator is a user-friendly web application that allows u
 
 ## Deployment
 
-The Language Dialect Translator has been deployed to GitHub Pages and is accessible online. You can experience the live website by visiting the following URL: [https://marcusperdue.github.io/Language-Dialect-Translator/](https://marcusperdue.github.io/Language-Dialect-Translator/)
+The Language Dialect Translator has been deployed to GitHub Pages and is accessible online. You can experience the live website by visiting the following URL: [https://marcusperdue.github.io/English-Spanish-Translator/](https://marcusperdue.github.io/English-Spanish-Translator/)
 
 ## Visuals
 
