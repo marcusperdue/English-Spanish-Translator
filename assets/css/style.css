@@ -16,8 +16,6 @@ h1 {
 }
 
 .container-fluid {
-   
-    background-color: #fff;
     padding: 20px;
     margin: 0; /* Remove margin to span the whole page */
     height: 100vh;
